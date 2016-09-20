@@ -7,6 +7,10 @@
         {
             "name": "Oro, Inc",
             "homepage": "http://www.orocrm.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/banovo/platform.git"
         }
     ],
     "autoload": {
@@ -22,7 +26,7 @@
     ],
     "require": {
         "php": ">=5.4.9",
-        "oro/platform": "1.9.*"
+        "oro/platform": "dev-banovo-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
